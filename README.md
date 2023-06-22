@@ -1,2 +1,3 @@
 # VQE_Estimator_Carbon_Dioxide_Adsorption_on_Ions
-Implementation of VQE algorithm by VQE_Estimator to caculate the total energies for carbon dioxide adsorption on Mg ion. 
+Implementation of VQE algorithm by VQE_Estimator to caculate the total energies for carbon dioxide adsorption on Magnesium ion. 
+The simulation were done by perfect, noisy, and physical qubits. To reduce the size of the problem active space tranasformation was applied to the system. But according to the Molecular orbital file, the selected orbitals can be manipulated for down or upsizing the system. The ansatz in the noisy and physical simulation was parameterized by the optimal points achieved by perfect simulation. But they can be parameterized randomly as well.
